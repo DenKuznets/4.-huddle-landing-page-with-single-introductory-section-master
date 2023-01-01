@@ -104,6 +104,7 @@ body {
   background-repeat: no-repeat;
   max-width: 375px;
   margin: auto;
+  height: 100vh;
 }
 
 header img {
@@ -152,7 +153,7 @@ aside svg:hover {
   fill: var(--color-primary-soft-magenta);
 }
 
-@media (min-width: 1090px) {
+@media (min-width: 1280px) {
   body {
     padding: 0;
     background-image: url(images/bg-desktop.svg);
@@ -177,10 +178,12 @@ aside svg:hover {
     padding-left: 72px;
     padding-top: 25px;
     padding-right: 90px;
+    height: 531px;
   }
   section div {
     padding-left: 53px;
     text-align: left;
+    width: 532px;
   }
   section h1 {
     position: relative;
